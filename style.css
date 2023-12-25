@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c0dcebc3;
+  color: #1b3464;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Nunito', sans-serif, Verdana, Geneva, Tahoma;
+}
+
+.nav-title, .navitems, .contactus, i {
+  color: #8f0e0e;
+}
+
+ul {
+  padding-right: 5rem;
+}
+
+li {
+  list-style: none;
+}
+
+.navlinks li {
+  cursor: pointer;
+}
+
+#awesomebooks ul {
+  padding-left: 4rem;
+  height: 22rem;
+  overflow: auto;
+}
+
+#awesomebooks li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #c0cbdd29;
+}
+
+#awesomebooks li:nth-child(odd) {
+  background-color: #7494cb37;
+}
+
+#awesomebooks li span {
+  font-weight: 700;
+}
+
+i {
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  width: 80%;
+  height: -6vh;
+  margin: 20px;
+  padding: 10px 25px 0;
+  font-size: 18px;
+  border: 3px solid rgb(7, 44, 118);
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navitems {
+  border-right: 2px solid gray;
+  margin: 5px;
+  padding: 5px;
+}
+
+.dates {
+  margin-top: auto;
+}
+
+#contact {
+  border-style: none;
+}
+
+.flex-container {
+  width: 70%;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.decoratedtext {
+  color: #8f0e0e;
+}
+
+.form {
+  align-items: center;
+}
+
+.formtitle {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+#btn {
+  height: 35px;
+  width: 20%;
+  border-radius: 13px;
+  cursor: pointer;
+  margin-top: 16px;
+  font-size: 14px;
+  border: none;
+  background-color: #8f0e0e;
+  font-weight: 800;
+  color: white;
+}
+
+.formcontrol {
+  height: 50px;
+  width: 40%;
+  margin-top: 10px;
+  font-size: 14px;
+  border: 4px solid rgb(7, 44, 118);
+  background-color: #fff;
+  font-weight: 800;
+  padding: 0 10px;
+}
+
+.forminput {
+  margin-left: 4.5rem;
+}
+
+.contacts {
+  margin-top: 2rem;
+}
+
+h4 span {
+  font-weight: 100;
+}
+
+.footer {
+  width: 80%;
+  border: 4px solid rgb(7, 44, 118);
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 5%;
+}
+
+.address {
+  color: #8f2e0e;
+}
+
+.hidden {
+  display: none;
+}
+
+.contactus {
+  margin: 0;
+  padding: 0;
+}
